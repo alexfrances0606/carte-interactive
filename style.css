@@ -1,9 +1,41 @@
 /* votre code CSS */
 
 h1 {
-  color: red;
+  color: rgb(0, 0, 0);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 
 #mapid { height: 500px;
 width: 1500px;
 }
+
+.eventTitle {
+  color:rgb(46, 163, 252);
+  font-weight: bold ; 
+}
+
+.coversize {
+  height: 30px;
+  width: 50px;
+}
+
+#concert {
+ background:rgb(6, 147, 157);
+ background-size: 40px; 
+ color:white;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 30px;
+border: 50px white;
+border-width: 50px;
+bottom: 400px;
+border-radius: 8px;
+
+}
+
+  #searchInput {
+    border-radius: 8px;
+    width: 200px;
+    height: 25px;
+    right: 600px;
+  }
