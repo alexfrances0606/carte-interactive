@@ -114,9 +114,3 @@ function onFormSubmit(event) {
     
 }
 
-function onFormSubmit(concert) {
-    concert.preventDefault();
-    console.log(concert.value)
-    getData(concert.value);
-    
-}
